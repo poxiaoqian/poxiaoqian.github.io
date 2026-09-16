@@ -3,7 +3,7 @@
 // Use isSelected: true to feature it on the homepage and CV.
 const publications = [
   {
-    title: "Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement",
+    title: "论文题目论文题目论文题目论文题目论文题目论文题目论文题目论文题目",
     authors: "<b>Your Name</b>, Co-Author One, Co-Author Two",
     venue: "ACL 2025",
     links: [
