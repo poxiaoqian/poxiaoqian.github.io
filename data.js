@@ -25,6 +25,7 @@
   }
 ];
 */
+/*
 // Helper functions to filter publications
 const getPreprints = () => publications.filter(pub => pub.isPreprint);
 const getSelectedPreprints = () => publications.filter(pub => pub.isPreprint && pub.isSelected);
@@ -95,3 +96,4 @@ const talks = [
 const honors = [
   "Your Award Name, Institution, Month YYYY"
 ];
+*/
