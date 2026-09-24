@@ -112,6 +112,7 @@
     return '© 2026 Your Name';
   }
 */
+  /*
   function getFooterClassName() {
     const footerSize = document.body.dataset.footerWidth;
     if (footerSize === 'wide' || getCurrentPage() === 'photography') {
@@ -168,3 +169,4 @@
 
   whenReady(injectSiteShell);
 })();
+*/
