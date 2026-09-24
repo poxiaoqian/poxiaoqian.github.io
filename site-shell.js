@@ -5,15 +5,15 @@
 
 (function() {
   const NAV_ITEMS = [
-    { key: 'home', href: 'index.html', label: 'Home' },
-    { key: 'publications', href: 'publications.html', label: 'Publications' },
-    { key: 'projects', href: 'projects.html', label: 'Projects' },
-    { key: 'blogs', href: 'blogs.html', label: 'Blogs' },
-    { key: 'photography', href: 'photography.html', label: 'Photography' },
-    { key: 'cv', href: 'cv.html', label: 'CV' }
+    { key: '首页', href: 'index.html', label: 'Home' },
+    { key: '研究团队', href: 'publications.html', label: 'Publications' },
+    { key: '最新资讯', href: 'projects.html', label: 'Projects' },
+    { key: '加入我们', href: 'blogs.html', label: 'Blogs' },
+    { key: '暂未建设', href: 'photography.html', label: 'Photography' },
+    { key: '暂未建设', href: 'cv.html', label: 'CV' }
   ];
 
-  const FOOTER_SOCIALS = [
+ const FOOTER_SOCIALS = [
     {
       href: 'https://github.com/yourusername',
       label: 'GitHub',
