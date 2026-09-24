@@ -5,12 +5,12 @@
 
 (function() {
   const NAV_ITEMS = [
-    { key: '首页', href: 'index.html', label: 'Home' },
-    { key: '研究团队', href: 'publications.html', label: 'Publications' },
-    { key: '最新资讯', href: 'projects.html', label: 'Projects' },
-    { key: '加入我们', href: 'blogs.html', label: 'Blogs' },
-    { key: '暂未建设', href: 'photography.html', label: 'Photography' },
-    { key: '暂未建设', href: 'cv.html', label: 'CV' }
+    { key: '首页', href: 'index.html', label: '首页' },
+    { key: '研究团队', href: 'publications.html', label: '研究团队' },
+    { key: '最新资讯', href: 'projects.html', label: '最新资讯' },
+    { key: '加入我们', href: 'blogs.html', label: '加入我们' },
+    { key: '暂未建设', href: 'photography.html', label: '暂未建设' },
+    { key: '暂未建设', href: 'cv.html', label: '暂未建设' }
   ];
 
  const FOOTER_SOCIALS = [
