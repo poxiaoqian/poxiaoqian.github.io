@@ -1,7 +1,8 @@
 // Unified Publications Data - Replace with your own publications
 // Each publication can be a preprint or a conference/journal paper.
 // Use isSelected: true to feature it on the homepage and CV.
-const publications = [
+//
+  const publications = [
   {
     title: "论文题目论文题目论文题目论文题目论文题目论文题目论文题目论文题目",
     authors: "<b>Your Name</b>, Co-Author One, Co-Author Two",
@@ -23,7 +24,7 @@ const publications = [
     isSelected: true
   }
 ];
-
+//
 // Helper functions to filter publications
 const getPreprints = () => publications.filter(pub => pub.isPreprint);
 const getSelectedPreprints = () => publications.filter(pub => pub.isPreprint && pub.isSelected);
