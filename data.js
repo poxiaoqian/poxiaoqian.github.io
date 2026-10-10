@@ -1,3 +1,16 @@
+const projects = [
+  {
+    title: "2026.09 实验室开始招收2026级博士研究生",
+    description: "欢迎机械、自动化、计算机、生物医学工程等相关背景的同学联系。",
+    links: []
+  },
+  {
+    title: "2026.08 实验室论文被XX会议接收",
+    description: "祝贺张三同学！",
+    links: []
+  }
+];
+
 // Unified Publications Data - Replace with your own publications
 // Each publication can be a preprint or a conference/journal paper.
 // Use isSelected: true to feature it on the homepage and CV.
