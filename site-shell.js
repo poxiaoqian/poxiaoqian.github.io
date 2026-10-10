@@ -143,7 +143,6 @@
     return `
   <div class="${getFooterClassName()}">
     <footer class="site-footer">
-      <div class="footer-social">${socialLinks}
       </div>
       <p class="footer-copyright">${getFooterCopy()}</p>
     </footer>
