@@ -130,7 +130,7 @@
     return `${hasMainContent ? '<a href="#main-content" class="skip-link">Skip to main content</a>' : ''}
   <nav class="nav-buttons" role="navigation" aria-label="Main navigation">
     ${navLinks}
-    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark/light mode"></button>
+  
   </nav>`;
   }
 
