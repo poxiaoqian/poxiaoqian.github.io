@@ -57,11 +57,34 @@
 </p >
 
 </div>
-<h2>当前组员</h2>
-<ul>
-  <li>张三，2024级博士研究生，研究方向：康复机器人。</li>
-  <li>李四，2023级硕士研究生，研究方向：人机交互。</li>
-</ul>
+<h2>团队成员</h2>
+
+<!-- 下面这个 div 是总容器，负责把卡片排成网格 -->
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: flex-start; margin-top: 20px;">
+
+  <!-- 👇 从这里开始，这是第 1 个人（王昕晴）的卡片 -->
+  <div style="text-align: center; width: 120px;">
+    <a href="person-template.html">
+      < img src="figures/wangxinqing1.jpg" alt="王昕晴" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #d2a679;">
+    </a >
+    <h3 style="margin: 10px 0 5px 0; font-size: 16px; color: #3b82f6;">王昕晴</h3>
+    <p style="color: #888; font-size: 13px; margin: 0;">科研助理</p >
+  </div>
+  <!-- 👆 到这里结束（第 1 个人） -->
+
+
+  <!-- 👇 这是第 2 个人（程祥）的卡片，复制上面的块，改字就行了 -->
+  <div style="text-align: center; width: 120px;">
+    <a href="person-template.html">
+      < img src="figures/chengxiang1.jpg" alt="程祥" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #d2a679;">
+    </a >
+    <h3 style="margin: 10px 0 5px 0; font-size: 16px; color: #3b82f6;">程祥</h3>
+    <p style="color: #888; font-size: 13px; margin: 0;">科研助理（行政岗）</p >
+  </div>
+
+  <!-- 你有多少人，就把 <div style="text-align: center; width: 120px;"> ... </div> 复制多少份，改里面的人和图片 -->
+
+</div>
    
   </main>
 
