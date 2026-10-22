@@ -35,55 +35,92 @@
 </head>
 
 <body>
-  <div id="site-nav"></div>
+ <!-- 6. 加入我们 / 合作教授 / 博士后招聘 -->
+<div style="max-width: 850px; margin-bottom: 80px;">
+  <div style="font-size: 0.85rem; color: #999; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 20px; font-weight: 600;">04 / JOIN US</div>
+  
+  <h2 style="font-size: 2rem; color: #111; margin-bottom: 30px; font-weight: 700; letter-spacing: -0.5px;">博士后招聘与团队合作</h2>
 
-  <main id="main-content" class="main-content-wrapper page-shell">
-    <!-- Page Title -->
-    <div>
-      <h1 class="page-title">Blogs</h1>
-    </div>
+  <!-- 1. 合作教授简介 -->
+  <h3 style="font-size: 1.3rem; color: #111; margin-top: 30px; margin-bottom: 15px;">【合作教授简介】</h3>
+  <p style="color: #444; line-height: 1.9; font-size: 1.05rem; margin-bottom: 20px;">
+    艾旭鹏，男，康复大学高层次副教授/独立PI，智能康复机器人实验室（AIR Lab）团队负责人，长期从事智能康复机器人研究。在哈尔滨工程大学获工学学士学位后，于美国哥伦比亚大学机器人与康复实验室（ROAR Lab）获机械工程硕士、博士学位并从事博士后研究（师从康复机器人领域资深专家Sunil Agrawal教授）。作为核心研究人员参与了多项美国NIH R01及SCIRB项目。近五年以独立一作发表了多篇IEEE TNSRE等领域顶刊。相关成果多次在IEEE ICRA、BioRob、美国物理治疗师年会等会议汇报。
+  </p >
 
-    <!-- Blog Posts -->
-    <div style="margin-bottom:40px;">
-      <ul id="blog-posts-container">
-        <li class="loading">Loading blog posts...</li>
-      </ul>
-    </div>
-  </main>
+  <!-- 2. 研究方向 -->
+  <h3 style="font-size: 1.3rem; color: #111; margin-top: 30px; margin-bottom: 15px;">【研究方向】</h3>
+  <ol style="color: #444; line-height: 1.9; font-size: 1.05rem; margin-bottom: 30px; padding-left: 20px;">
+    <li><strong>康复机器人系统设计与控制：</strong>面向姿势康复的并联机器人、线驱机器人等康复系统平台开发；</li>
+    <li><strong>神经-肌肉协同机制研究：</strong>基于肌电、脑电的多模态信号处理与肌肉协同分析；</li>
+    <li><strong>智能感知与力场建模：</strong>基于深度学习的动态稳定性边界预测、混合边界力场设计与实时控制；</li>
+    <li><strong>人机交互与康复游戏开发：</strong>扩展现实XR交互系统（包括虚拟现实VR和增强现实AR）、康复训练游戏与远程康复平台；</li>
+    <li><strong>临床康复验证：</strong>面向脑瘫、脊髓损伤、脑卒中等神经运动障碍患者和亚健康人群的随机对照试验与康复效果评估。</li>
+  </ol>
 
-  <div id="site-footer"></div>
+  <!-- 3. 岗位职责与要求 -->
+  <h3 style="font-size: 1.3rem; color: #111; margin-top: 30px; margin-bottom: 15px;">【岗位职责】</h3>
+  <ul style="color: #444; line-height: 1.9; font-size: 1.05rem; margin-bottom: 20px; padding-left: 20px;">
+    <li>独立或合作开展智能康复机器人相关课题研究，发表高水平学术论文；</li>
+    <li>协助指导研究生、参与项目申报与实验室建设；</li>
+    <li>参与多模态数据采集、系统开发、临床试验等科研任务。</li>
+  </ul>
 
-  <!-- Load JavaScript files -->
-  <script src="site-shell.js"></script>
-  <script src="utils.js"></script>
-  <script src="vendor/marked.umd.js"></script>
-  <script src="blog-data.js"></script>
-  <script src="blog-manager.js"></script>
-  <script>
-    // Initialize blog when page loads
-    document.addEventListener('DOMContentLoaded', async function() {
-      try {
-        await blogManager.loadPosts();
-        blogManager.renderBlogList();
-      } catch (error) {
-        console.error('Error loading blog posts:', error);
-        document.getElementById('blog-posts-container').innerHTML = `
-          <li class="coming-soon">
-            <h2>Coming Soon!</h2>
-            <p>Blog posts will appear here once you add them in <code>blog-data.js</code>.</p>
-          </li>
-        `;
-      }
+  <h3 style="font-size: 1.3rem; color: #111; margin-top: 30px; margin-bottom: 15px;">【专业与岗位要求】</h3>
+  <p style="color: #444; line-height: 1.9; font-size: 1.05rem; margin-bottom: 15px;">
+    <strong>专业背景：</strong>已获得或即将获得机械工程、生物医学工程、自动化、计算机科学、康复医学、生物信息学、认知科学等相关专业博士学位。<br>
+    <strong>基本要求：</strong>以第一作者在相关领域发表过高水平论文；具备良好的沟通能力，热爱科研。
+  </p >
+  <p style="color: #444; line-height: 1.9; font-size: 1.05rem; margin-bottom: 10px;">具备以下一项或多项能力者优先：</p >
+  <ul style="color: #444; line-height: 1.9; font-size: 1.05rem; margin-bottom: 30px; padding-left: 20px;">
+    <li>（1）机器人机构设计、运动控制、力控算法开发；</li>
+    <li>（2）肌电/脑电信号处理、肌肉协同分析、神经调控机制研究；</li>
+    <li>（3）深度学习、强化学习、实时感知与控制算法开发；</li>
+    <li>（4）虚拟现实/增强现实开发、Unity/Unreal等引擎应用；</li>
+    <li>（5）人体运动学、动力学、肌电、脑电、MRI等信号或图像分析；</li>
+    <li>（6）具体专业、背景、能力不做硬性要求，欢迎自荐。</li>
+  </ul>
 
-      // Initialize dark mode toggle (uses utils.js with sun/moon icons)
-      initializeDarkMode();
+  <!-- 4. 薪资待遇 (用带浅色背景的框框凸显出来) -->
+  <h3 style="font-size: 1.3rem; color: #111; margin-top: 30px; margin-bottom: 15px;">【薪资待遇】</h3>
+  <div style="background: #fff; border: 1px solid #eaeaea; padding: 25px; border-radius: 12px; margin-bottom: 30px;">
+    <h4 style="color: #111; margin-top: 0; margin-bottom: 10px; font-size: 1.1rem;">（一）学校待遇</h4>
+    <p style="color: #444; line-height: 1.8; margin-bottom: 10px;">
+      <strong>特别资助类：</strong>年薪30万；科研资助自科类20万，社科类5万。<br>
+      <strong>重点资助类：</strong>年薪25万；科研资助自科类10万，社科类3万。<br>
+      <strong>一般资助类：</strong>年薪20万；科研资助自科类5万，社科类 2万。
+    </p >
+    <p style="color: #444; line-height: 1.8; margin-bottom: 20px;">
+      按照学校校内教职工待遇执行福利，为博士后人员缴纳保险。博士后在站期间科研成绩突出（获国自然项目、博士后项目，或发表研究领域顶级期刊1-2篇），符合学校人才引进相关政策者可留校工作。
+    </p >
 
-      // Initialize back to top button
-      initializeBackToTop();
-    });
+    <h4 style="color: #111; margin-top: 20px; margin-bottom: 10px; font-size: 1.1rem;">（二）山东省补助</h4>
+    <p style="color: #444; line-height: 1.8; margin-bottom: 20px;">
+      每年5万生活补助，每满1年发放1次，最高不超过15万。
+    </p >
 
-    // Dark mode functions are loaded from utils.js
-  </script>
+    <h4 style="color: #111; margin-top: 20px; margin-bottom: 10px; font-size: 1.1rem;">（三）青岛市补助</h4>
+    <p style="color: #444; line-height: 1.8; margin-bottom: 0;">
+      发放每月7000元的生活补助（对获批中国博士后科学基金资助，或获选省博士后创新人才支持计划、博士后创新项目资助，或者获市级以上项目、课题（个人均排名前三位）的在站（基地）博士后，从获批或入选当月起，每月加发 2000 元的激励生活资助），发放时间以实际在站时间为准。博士后出站后6个月内在青岛办理就业手续且落户在青岛的，给予25万元安家补贴。
+    </p >
+  </div>
+
+  <!-- 5. 申请方式与联系方式 -->
+  <h3 style="font-size: 1.3rem; color: #111; margin-top: 30px; margin-bottom: 15px;">【申请方式】</h3>
+  <p style="color: #444; line-height: 1.9; font-size: 1.05rem; margin-bottom: 20px;">
+    申请者将《康复大学博士后招收申请表》、3封推荐信、3-5篇以内学术代表作全文等材料发送至 <a href=" " style="color: #d2a679; font-weight: bold; text-decoration: none;">aixupeng@uhrs.edu.cn</a > 和 <a href="mailto:ai_xupeng@163.com" style="color: #d2a679; font-weight: bold; text-decoration: none;">ai_xupeng@163.com</a >，邮件标题请标明“博士后申请＋姓名”。
+  </p >
+  <p style="color: #111; font-weight: bold; line-height: 1.8; font-size: 1.1rem; margin-bottom: 30px; padding-left: 15px; border-left: 4px solid #d2a679;">
+    欢迎有志于康复机器人、智能康复、人机交互方向的青年才俊加入我们，共同推动康复技术的范式变革！
+  </p >
+
+  <!-- 联系信息块 -->
+  <div style="background: #f9f9f9; padding: 20px; border-radius: 8px; font-size: 1rem; color: #666; line-height: 1.8;">
+    <strong>联系人：</strong>艾老师<br>
+    <strong>咨询电话：</strong>0532-57787569<br>
+    <strong>电子邮箱：</strong>aixupeng@uhrs.edu.cn
+  </div>
+
+</div>
 </body>
 
 </html>
